@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Four in a Line</h1>
+    <table>
+      <tr>
+        <td id="cell00" onClick="dropToken(0)"></td>
+        <td id="cell01" onClick="dropToken(1)"></td>
+        <td id="cell02" onClick="dropToken(2)"></td>
+        <td id="cell03" onClick="dropToken(3)"></td>
+      </tr>
+      <tr>
+        <td id="cell10" onClick="dropToken(0)"></td>
+        <td id="cell11" onClick="dropToken(1)"></td>
+        <td id="cell12" onClick="dropToken(2)"></td>
+        <td id="cell13" onClick="dropToken(3)"></td>
+      </tr>
+      <tr>
+        <td id="cell20" onClick="dropToken(0)"></td>
+        <td id="cell21" onClick="dropToken(1)"></td>
+        <td id="cell22" onClick="dropToken(2)"></td>
+        <td id="cell23" onClick="dropToken(3)"></td>
+      </tr>
+      <tr>
+        <td id="cell30" onClick="dropToken(0)"></td>
+        <td id="cell31" onClick="dropToken(1)"></td>
+        <td id="cell32" onClick="dropToken(2)"></td>
+        <td id="cell33" onClick="dropToken(3)"></td>
+      </tr>
+    </table>
+    <h2 id="winner"></h2>
+    <hr />
+    <div id="cool-message">
+      <p>Well done!</p>
+      <img src="https://c.tenor.com/krjGu8PG5KkAAAAC/michael-rosen.gif" alt="noice!"  width="250"></img>
+    </div>
+    <p>This is a game of four-in-a-line</p>
+    <p>
+      Two players take turns to place their token - and 'x' or an 'o'. The first
+      one to get four tokens in a line wins
+    </p>
+    <p></p>
+    <p>
+      <strong>We need to tell the player they have won</strong>. That will need
+      us to add some code.
+    </p>
+    <p></p>
+    <p>
+      Most of the game code works already. Click around and see what it does.
+    </p>
+  </body>
+</html>
